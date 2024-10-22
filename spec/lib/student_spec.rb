@@ -23,6 +23,12 @@ RSpec.describe Student do
     it 'can calculate the grades average' do
       expect(student.average).to eq 76
     end
+
+    describe '#full_name' do
+      it 'returns full name of student' do
+        expect(student.full_name).to eq "christian baman"
+      end
+    end
   end
 
   context 'when student attributes are NOT provided' do

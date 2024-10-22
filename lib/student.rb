@@ -14,4 +14,8 @@ class Student
     total_grade = english.to_i + math.to_i + physics.to_i
     (total_grade.to_f / 3).to_i
   end
+
+  def full_name
+    "#{first_name} #{last_name}"
+  end
 end
