@@ -1,5 +1,6 @@
 require "grader"
 require "terminal-table"
+require 'pry'
 
 file = File.open("./files/grades.csv")
 grader = Grader.new(file)
