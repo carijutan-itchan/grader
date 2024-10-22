@@ -21,7 +21,7 @@ RSpec.describe Student do
     end
 
     it 'can calculate the grades average' do
-      expect(student.average).to eq 76.7
+      expect(student.average).to eq 76
     end
   end
 

@@ -12,6 +12,6 @@ class Student
 
   def average
     total_grade = english.to_i + math.to_i + physics.to_i
-    (total_grade.to_f / 3).round(1)
+    (total_grade.to_f / 3).to_i
   end
 end
